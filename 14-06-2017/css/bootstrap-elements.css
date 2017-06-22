@@ -1,0 +1,20 @@
+.container {
+  background-color: pink;
+}
+
+.col-sm-12 {
+  background-color: lightblue;
+  padding-bottom: 30px;
+}
+.col-sm-6{
+  background-color: yellow;
+  padding-bottom: 30px;
+}
+.col-sm-4 {
+  background-color: chartreuse;
+  padding-bottom: 30px;
+}
+
+.row {
+  margin-bottom: 30px;
+}

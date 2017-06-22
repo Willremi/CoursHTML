@@ -1,0 +1,27 @@
+h1 {
+  font-family: Arial;
+  font-size: 50px;
+  text-align: center;
+}
+
+h2 {
+  font-family: arial;
+  font-size: 40px;
+  text-align: center;
+}
+
+.emc2 {
+  text-align: center;
+}
+
+.centered {
+  text-align: center;
+}
+
+footer {
+  font-style: italic;
+}
+
+p {
+  font-size: 25px;
+}

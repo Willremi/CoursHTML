@@ -1,0 +1,45 @@
+.fixed {
+  background-color: lightblue;
+  height: 200px;
+  left: 0px;
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 1000;
+}
+
+.placeholder {
+  height: 200px;
+  width: 100%;
+}
+
+.vertical-align {
+  vertical-align: middle;
+}
+
+.vertical-center {
+  left  : 0px;
+  position: relative;
+  top: 11px;
+}
+
+.rectangle {
+  background-color: pink;
+  height: 200px;
+
+  width: 300px;
+}
+/*centrage vertical et horizontale*/
+/*le parent doit être en postion relative*/
+.rectangle {
+  position: relative;
+}
+
+/*l'enfant doit être en postion absolute*/
+.rectangle p {
+  left: 50%;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
